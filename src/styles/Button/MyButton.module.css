@@ -1,0 +1,21 @@
+.button {
+  border: 1px solid #1e1f1f;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1e1f1f;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}

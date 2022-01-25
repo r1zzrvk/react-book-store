@@ -1,0 +1,31 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.page {
+  padding: 2px;
+  border: 1px solid #1e1f1f;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  color: #1e1f1f;
+}
+
+.page:hover {
+  background-color: #1e1f1f;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.page.currentPage {
+  font-weight: bold;
+  border-color: #1e1f1f;  ;
+  scale: 1.2;
+}

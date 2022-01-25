@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 80px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+}
+
+.imageBlock img{
+  min-height: 80px;
+  min-width: 200px;
+}
+
+.textItem {
+  font-size: 16px;
+  padding: 0;
+  margin: 10px;
+}
+
+.aboutItem {
+  text-align: center;
+}

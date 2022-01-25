@@ -1,0 +1,13 @@
+export const UPDATE_SEARCHFIELD = 'UPDATE_SEARCHFIELD';
+export const SET_BOOKS = 'SET_BOOKS';
+export const SELECT_BY_DATE = 'SELECT_BY_DATE';
+export const SORT_BY_DATE = 'SORT_BY_DATE';
+export const SELECT_BY_PRICE = 'SELECT_BY_PRICE';
+export const SORT_BY_PRICE = 'SORT_BY_PRICE';
+export const SET_FETCHING = 'SET_FETCHING';
+export const SET_TOTAL_PAGES = 'SET_TOTAL_PAGES';
+export const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+
+
+
+

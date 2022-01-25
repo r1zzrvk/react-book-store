@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  min-height: 900px;
+}

@@ -1,0 +1,234 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "volumeInfo": {
+        "title": "Властелин Колец",
+        "author": "Джон Толкин",
+        "publisher": "Litres",
+        "publishDate": "2021-09-03",
+        "description": "Джон Рональд Руэл Толкин (3.01.1892–2.09.1973) – писатель, поэт, филолог, профессор Оксфордского университета, родоначальник современной фэнтези. В 1937 году был написан «Хоббит», а в середине 1950-х годов увидели свет три книги «Властелина Колец», повествующие о Средиземье – мире, населенном представителями волшебных рас со сложной культурой, историей и мифологией.В последующие годы эти романы были переведены на все мировые языки, адаптированы для кино, мультипликации, аудиопьес, театра, компьютерных игр, комиксов и породили массу подражаний и пародий.Существует свыше десятка переводов трилогии на русский язык. В данное издание вошел перевод В. Муравьева и А. Кистяковского.",
+        "category": "Fantasy",
+        "pageCount": 1707,
+        "averegeRating": 5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=2b0sDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71tZoPH6Kl7m-Xm2lG6JbbDP9PaRsoWY8cg2Ii97TtfU1ACY_sGUiI3a8wT7_dl7D2J0HbjmWuhGfCOjbujdYJloTEnhr8eYAL7ZHSGhTfCieYclpTFgwa1IVSquASub8iPCT2G&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=2b0sDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72GtXQQHrRN5kjlPsH78WXq8HQXdXcrYWNn4L3CzYQmwyrGz_Kqjj8DdNnN__PDAmrFkx4oBmK6ASDxQNIjDi6ALRzzJJc0KzM_n7GJWLDHQcjGvfcQRExfHafBRZbNShWOavJJ&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 1499,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 2,
+      "volumeInfo": {
+        "title": "JavaScript",
+        "author": "David Flanagan",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishDate": "2011-04-25",
+        "description": "Since 1996, JavaScript: The Definitive Guide has been the bible for JavaScript programmers—a programmer's guide and comprehensive reference to the core language and to the client-side JavaScript APIs defined by web browsers.The 6th edition covers HTML5 and ECMAScript 5. Many chapters have been completely rewritten to bring them in line with today's best web development practices. New chapters in this edition document jQuery and server side JavaScript. It's recommended for experienced programmers who want to learn the programming language of the Web, and for current JavaScript programmers who want to master it. A must-have reference for expert JavaScript programmers...well-organized and detailed.--Brendan Eich, creator of JavaScript, CTO of Mozilla I made a career of what I learned from JavaScript: The Definitive Guide.” -- Andrew Hedges, Tapulous",
+        "category": "Programming",
+        "pageCount": 1078,
+        "averegeRating": 4,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4RChxt67lvwC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73T6T5avemBb0V5mN5w-b4t47YwUM97NsbV5V1OKJSn2LATBnOBphnvfRaFyGMbmAepgMTzKszpk56oSaEKkpVLLNC4O-cZZ7SUjUPkfo2iXv_WX8JTmSiJ3IGQ5h4KZtTiQo03&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4RChxt67lvwC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72zX0uHUvNYfLQ5FgU8I0NIuwToVJFMwag12ITxJMBJdRUopJIJ89FEMavHxBQPXDIYvaBqHvSH3R5Xls4eON7THG4LfOxMrnobxf5reGqQOpaOvV_fzIdd-5-kUW5kmhADzOt3&source=gbs_api"
+        },
+        "language": "ENG"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 2199,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 3,
+      "volumeInfo": {
+        "title": "Граф Монте-Кристо",
+        "author": "Александр Дюма",
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishDate": "2020-01-14",
+        "description": "«Граф Монте-Кристо» - это классика историко-приключенческого жанра, созданная бессмертным литературным гением Александром Дюма. Сюжет о невероятной судьбе Эдмона Дантеса, узника замка Иф, был почерпнут автором из реальной жизни. Этот объемный роман читается на одном дыхании и держит читателя в напряжении до последней страницы.",
+        "category": "Adventure",
+        "pageCount": 1419,
+        "averegeRating": 5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=uMNJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE703sPvQGmH0wP_N9u2tCEP9Hpd9K0eiENfWpXrSYZ8YliGfcDBT4W-db8Er4gvrY0mJ7uF8Qsdq16SaEASqETYRWXy9o4WpRIgh1jGgxrDEQFnuHOxzIWRLM9g3nfRbFz0-2Yn4&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=uMNJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73psengmYCFQryFdvWQAbyDV8-3Obx9KJLPG7xRgdSq4OBin-pcdNdczMz_iCxgUO7yfICDbQ3pJg0QC4mAalOHAWtVxHl0kcAoQ8v72Ut5brB38rDqY1DtGj2fVMNnHUQ5rwR8&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 900,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 4,
+      "volumeInfo": {
+        "title": "Превращение",
+        "author": "Франц Кафка",
+        "publisher": "Strelbytskyy Multimedia Publishing",
+        "publishDate": "2021-04-23",
+        "description": "Франц Кафка — всемирно известный австрийский писатель. Его произведения пронизаны абсурдом и страхом перед внешним миром и высшим авторитетом, способны пробуждать у читателя соответствующие чувства тревоги, и это — особенное явление в мировой литературе. Герой повести «Превращение» — Грегор Замза. Однажды он просыпается… в обличии крупного насекомого. Грегор остается без работы, родственники запирают его в комнате. Изменения, полностью изолировавшие Грегора от мира, приводят в конце концов к его смерти, что на самом деле является облегчением для семьи, которой он надоел. В символическом плане история постепенного выталкивания героя из круга близких ему людей прочитывается как процесс безжалостного отторжения благополучным равнодушным обществом «других», личностей, болеющих своим собственным человеческим несчастьем. И, к сожалению, сам Кафка вполне это чувствовал.",
+        "category": "Classics",
+        "pageCount": 117,
+        "averegeRating": 4,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=PfUqEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE735dFbjbQVLoQ1J0NUtQH_5So79NCqWFrG5YfSQeN-Rz5mR9pQzosUfnTv2txP7mtom3eWUoc7KLZZsZA8eijp-NfMU6KTJn4IfwfCyECMBINlO24-0kuzjit_cdANaC2Hdg4oH&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=PfUqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71J0RlL7hkkgr2rRq0DZe7O9Dg6ZoZVv7D8aYuVihp8DvCwzcgTEVjBAMVPOhbAkuvkuz2GWLd2Duhk2Un813cEU8CMs44tdO3tr1LAklCmn1d-siTcx9W6FsmHrlbvLcKblkgB&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": true,
+        "amount": 190,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 5,
+      "volumeInfo": {
+        "title": "Грокаем алгоритмы",
+        "author": "Бхаргава Адитья",
+        "publisher": "Piter",
+        "publishDate": "2021",
+        "description": "Алгоритмы - это всего лишь последовательность решения задач, и большинство таких задач уже были кем-то решены, протестированы и проверены. Можно, конечно, погрузиться в глубокую философию гениального Кнута, изучить многостраничные фолианты с доказательствами и обоснованиями, но хотите ли вы тратить на это свое время? Откройте великолепно иллюстрированную книгу и вы сразу поймете, что алгоритмы - это просто. А грокать алгоритмы - это веселое и увлекательное занятие.",
+        "category": "Programming",
+        "pageCount": 288,
+        "averegeRating": 4.5,
+        "imageLinks": {
+          "smallThumbnail": "https://publications.iarc.fr/uploads/media/default/0001/02/thumb_1224_default_publication.jpeg",
+          "thumbnail": "https://publications.iarc.fr/uploads/media/default/0001/02/thumb_1224_default_publication.jpeg"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 750,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 6,
+      "volumeInfo": {
+        "title": "Дюна",
+        "author": "Фрэнк Герберт",
+        "publisher": "Litres",
+        "publishDate": "2021-09-25",
+        "description": "Фрэнк Герберт (1920–1986) успел написать много, но в истории остался прежде всего как автор эпопеи «Дюна». Возможно, самой прославленной фантастической саги двадцатого столетия, саги, переведенной на десятки языков и завоевавшей по всему миру миллионы поклонников. Самый авторитетный журнал научной фантастики «Локус» признал «Дюну», первый роман эпопеи о песчаной планете, лучшим научно-фантастическим романом всех времен и народов. В «Дюне» Фрэнку Герберту удалось совершить невозможное – создать своеобразную «хронику далекого будущего». И не было за всю историю мировой фантастики картины грядущего более яркой, более зримой, более мощной и оригинальной.",
+        "category": "Fantasy",
+        "pageCount": 798,
+        "averegeRating": 4.8,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=2ARHDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72_EgOgxo8lrL2eWfS48BaQPKOMmqxV_RWxk958C2EP1YxNu03JBo_PLwDBevkgcqUCLeMxoTnFnyTJwf7WZPDcFnfO0PaeBx8L31cbVKh_FdFug_59_FiZgf0MFkJc6iMu17zL&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=2ARHDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73G-fCyodNBx8dgGc4uSaaFoMlU8EWA48Pm6xvYykPG8wyYkTFusAqlGTU4StDXVuCnHIe3nNMCZoQzYTT9zev7c6HoFP-zjZTzXIG9pB5uZxOdcnvxIA6WVBKJ9WAaeAL_kgW8&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 1000,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 7,
+      "volumeInfo": {
+        "title": "Над пропастью во ржи",
+        "author": "Джером Дэвид Сэлинджер",
+        "publisher": "Litres",
+        "publishDate": "2021-12-29",
+        "description": "Писатель-классик, писатель-загадка, на пике своей карьеры объявивший об уходе из литературы и поселившийся вдали от мирских соблазнов в глухой американской провинции. Единственный роман Сэлинджера, \"Над пропастью во ржи\" стал переломной вехой в истории мировой литературы. И название романа, и имя его главного героя Холдена Колфилда сделались кодовыми для многих поколений молодых бунтарей – от битников и хиппи до современных радикальных молодежных движений.Роман представлен в блестящем переводе Риты Райт-Ковалевой, ставшем классикой переводческого искусства.",
+        "category": "Classics",
+        "pageCount": 257,
+        "averegeRating": 3.5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=KDHMDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70lkhkjkJS-ciVCqbUgy5JoqDRtg5oHLPj8h5-NxIYr-65P0uCOjK0K7sTBAOKaw3lvUG7p7FWm2X6o4a3zw13fsIfsno9zKGLlDcTJ8eMIyr22rNFZTqp3LXWQRev7ghN05TGB&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=KDHMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE700Bxe5Vp87F7x0sWyp-OBz-upI6he4jOG8kigkA3sPOL5LwU0Yt1bh-LzsqCkTvLY1ZtXAeXRad0jSN7ELz_BZ_TNm4yG0mh0QzUNK7eWRlK1BqtkawrUXiGMR_NyP6uZrW7Cr&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 343,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 8,
+      "volumeInfo": {
+        "title": "Последнее желание",
+        "author": "Анджей Сапковский",
+        "publisher": "Litres",
+        "publishDate": "2020-10-09",
+        "description": "Ведьмак – это мастер меча и мэтр волшебства, ведущий непрерывную войну с кровожадными монстрами, которые угрожают покою сказочной страны.«Ведьмак» – это мир на острие меча, ошеломляющее действие, незабываемые ситуации, великолепные боевые сцены.",
+        "category": "Fantasy",
+        "pageCount": 425,
+        "averegeRating": 5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=zTsnDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73iPmy26gtOxcXAW81C1BOVVTde2CN7eN2sbFOxkjLBXeHkG4IHGOvstrxV3RGiZTkfnxNl8ZtRzlhn16HNEAMdfv_jqO1hv7fxpyXivBbjDUP5iw559xR1TL_LYCB2cFyfwUgo&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=zTsnDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72gq_zso6Mtkn06v8Q0ZKDHlXAeWVZAaNMZ9ukTICEbQGL0qq6tW0dfYYSGVE6OgpPixwIeX0bD0psxOrLck5N3-fBUyJkvCoohyOeqBP297-Twl6gD_fWXmo7RJ0qDEWKsNJYo&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 346,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 9,
+      "volumeInfo": {
+        "title": "Белый клык",
+        "author": "Джек Лондон",
+        "publisher": "Folio",
+        "publishDate": "2013-12-23",
+        "description": "Творчество американского писателя Джека Лондона (1876—1916) не менее разнообразно, чем его жизнь, полная невзгод, приключений и опасностей. Своей славой он обязан прежде всего выдающейся плеяде «северных» рассказов и повестей. Они привлекают мужеством своих героев, их дерзостью, силой духа. Одна из лучших «северных» повестей писателя — «Белый Клык». Это удивительная история братства человека и волка, повествующая о дружбе гордого и свободолюбивого животного с человеком, когдато спасшим ему жизнь.  «Маленькая хозяйка большого дома», пожалуй, самое лирическое произведение Лондона. Роман, посвященный соперничеству в любви, непростым человеческим взаимоотношениям, сложившимся в любовном треугольнике, увидел свет в последний год жизни писателя. С тех пор эта книга — одно из самых любимых и читаемых произведений Дж. Лондона, а сам автор считал ее своим лучшим романом",
+        "category": "Adventure",
+        "pageCount": 528,
+        "averegeRating": 4.9,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=U05GBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE7138Kl5dO7sNg7iSjtWPP3nlIaClM9s-axWNHQjJulIij6d6dZE_LF6NCIh2pxhQNX0xCklZ0xTx2RR7KAry94zVgXCB-ofPzZC0cwk6gGlXNtp4ni8bHvoXyoCo8S18LSLHcUm&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=U05GBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70toLspSr5eFLjbvlw4ry9URr6a8iLCI9OGffKO9LrY3cW3gaVRUCdgSbihGchZf8itVTpRfcoPwx7F1vJnNuhHouV3u6w17J_HdNjjWYro7tmVzgsIhSTQqfyOEXJ1wB4nDsmy&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 149,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 10,
+      "volumeInfo": {
+        "title": "The Old Curiosity Shop",
+        "author": "Charles Dickens",
+        "publisher": "Knopf",
+        "publishDate": "1995",
+        "description": "Charles Dickens's story of selfless Little Nell and her ailing grandfather and their persecution by the magnificently malignant villain Quilp has seized the imaginations and wrung the hearts of generations of readers. Dickens's talent was superabundant in every way: in his dramatic force and his massive productivity, in his almost surreal comic power, in his compassion and thirst for justice, and in the imaginative pressure he brought to bear on even the most incidental of his characters. The delightfully various figures in The Old Curiosity Shop range memorably from jaunty Dick Swiveller and his little half-starved Marchioness to the hard-hearted siblings Sampson and Sally Brass, jovial Mrs. Jarley, devoted Kit Nubbles, the hunchbacked Daniel Quilp, and, of course, tragic Little Nell herself. Dickens's depiction of the fate of his main characters is famously harrowing and unfailingly suspenseful, but not the least of its charms is that it is embellished with a supporting cast of figures as grotesque and colorful as anything in the Old Curiosity Shop itself. This edition reprints the original Everyman's preface by G. K. Chesterton and features seventy-five illustrations by Cattermole and Phiz.",
+        "category": "Classics",
+        "pageCount": 569,
+        "averegeRating": 4.9,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6LDAxuQXm6sC&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE70ZerItQTsOUeB4CDvwSyYqev8ZpAxu5w5xEWSzNBalcF3QEu0q0_aHrJORHDiZmF8d66MWfMYGPNOH8KY16ReE9wVxaPhX3zEhJbYIBA1-0sMafPU_FTFCns5__nJanzVMRQCi&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6LDAxuQXm6sC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE729xkyGRTAobS2ze2gC2K7JoBjLUssQ0F4CpL_RY3be3oVjEqPzTiALg8UFeAmt_0RZ-2qdj4uLD4xKG_DLxBputBmnvjvVBSWxufbUWd28YYddfmRlmBE_8SmBCa8djy9bhV8z&source=gbs_api"
+        },
+        "language": "ENG"
+      },
+      "saleInfo": {
+        "outOfStoke": true,
+        "amount": 800,
+        "currencyCode": "RUB"
+      }
+    }
+  ]
+}
