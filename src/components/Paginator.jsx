@@ -1,41 +1,7 @@
-// import React from 'react';
-// import { getPagesArray } from '../utils/pages';
-// import MyButton from '../components/UI/Mybutton';
-// import { setCurrentPageAction } from '../redux/actions';
-// import { useDispatch, useSelector } from 'react-redux';
-// import s from '../styles/Paginator/Paginator.module.css';
-// import cn from 'classnames';
-
-// const Paginator = (props) => {
-//   const totalPages = useSelector(state => state.book.totalPages);
-//   const currentPage = useSelector(state => state.book.currentPage);
-//   const dispatch = useDispatch();
-
-//   let pages = getPagesArray(totalPages);
-  
-
-
-//   return <div className={s.paginator}>
-//     <MyButton className={s.page}> {`<<`}</MyButton>
-//     {pages.map(page => {
-//       return <MyButton key={page}
-//         onClick={() => {dispatch(setCurrentPageAction(page))}}
-//         className={cn({
-//           [s.currentPage]: currentPage === page
-//         }, s.page)}> {page} </MyButton>
-//     })}
-//      <MyButton className={s.page}> {`>>`} </MyButton>
-//   </div>;
-// };
-
-// export default Paginator;
-
-
-
 import React, { useState } from 'react';
 import { getPagesArray } from '../utils/pages';
 import MyButton from '../components/UI/Mybutton';
-import { setCurrentPageAction } from '../redux/actions';
+import { setCurrentPageAction } from '../redux/actions/actions';
 import { useDispatch, useSelector } from 'react-redux';
 import s from '../styles/Paginator/Paginator.module.css';
 import cn from 'classnames';

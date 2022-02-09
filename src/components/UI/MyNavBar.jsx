@@ -1,12 +1,13 @@
 import React from 'react';
-import Form from '../Form';
 import s from '../../styles/Nav/Nav.module.css';
+import { Link } from 'react-router-dom';
 
 const MyNavBar = (props) => {
   return (
     <nav className={s.nav}>
       <h1 className={s.header}>Book Store</h1>
-      <div><Form /></div>
+      <Link to='/main'>Main </Link>
+      <Link to='about'> About</Link>
     </nav>
   )
 }

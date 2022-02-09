@@ -1,56 +1,52 @@
-import React, { useEffect }from 'react'
+import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { 
-  selectByDateAction,
-  sortByDateAction, 
-  selectByPriceAction,
-  sortByPriceAction } from '../redux/actions';
-import MySelect from './UI/MySelect';
+import { setSortingAction } from '../redux/actions/actions';
+import MyButton from './UI/Mybutton';
+import style from '../styles/Button/MyButton.module.css';
+import { fetchFiltredByCategory } from '../redux/actions/async-action';
+import s from '../styles/Form/Form.module.css';
+import FilterBlock from './FilterBlock';
+import SearchBlock from './SearchBlock';
 
 const Form = (props) => {
-const dispatch = useDispatch();
-const date = useSelector( state => state.book.sortByDate);
-const price = useSelector( state => state.book.sortByPrice);
+  const dispatch = useDispatch();
+  const selectedSort = useSelector(state => state.book.selectedSort);
+  const selectedCategory = useSelector(state => state.book.category);
+  const [visible, setVisible] = useState(false)
 
-useEffect(() => {
-  dispatch(sortByDateAction())
-}, [date,dispatch]);
+  useEffect(() => {
+    dispatch(setSortingAction())
+  }, [selectedSort, dispatch]);
 
-useEffect(() => {
-  dispatch(sortByPriceAction())
-},[price,dispatch])
+  useEffect(() => {
+    dispatch(fetchFiltredByCategory(selectedCategory));
+  }, [selectedCategory, dispatch]);
 
   return (
-    <form>
-      {/* <MyInput
-        type='text'
-        placeholder="Type something..."
-        onChange={ handleChange }
-        value={ inputValue } />
-      <MyButton
-        type='submit'
-      >Нажми</MyButton> */}
-        <MySelect 
-              defaultValue='By date'
-              options={[
-                {value:'newest',
-                 name: 'Newest'},
-                {value:'oldest',
-                 name: 'Oldest'},
-              ]}
-              onChange={(value) => {dispatch(selectByDateAction(value))}}
-            />
-         <MySelect 
-              defaultValue='By price'
-              options={[
-                {value:'lowest',
-                 name: 'Low to High'},
-                {value:'highest',
-                 name: 'High to Low'},
-              ]}
-              onChange={(value) => {dispatch(selectByPriceAction(value))}}
-            />
-    </form>
+    <div>
+      <form className={s.form}>
+       <SearchBlock/>
+        <div>
+          <MyButton
+            className={style.arrowBtn}
+            onClick={(e) => {
+              e.preventDefault()
+              if (visible) {
+                setVisible(false)
+              } else {
+                setVisible(true)
+              }
+            }}>
+            {!visible
+              ? <>▼</>
+              : <>✖</>}
+          </MyButton>
+        </div>
+      </form>
+      {!visible
+        ? <div></div>
+        : <FilterBlock />}
+    </div>
   )
 };
 

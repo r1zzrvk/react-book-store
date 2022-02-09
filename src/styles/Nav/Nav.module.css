@@ -1,9 +1,27 @@
 .nav {
-  height: 90px;
+  height: 75px;
 }
 
 .header {
   font-size: 30px;
   padding: 0;
   margin: 3px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1px 10px 1px 10px;
+}
+
+.nav a:hover {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.nav a.activeLink {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
 }

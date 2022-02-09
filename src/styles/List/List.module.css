@@ -4,6 +4,13 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 100px;
+  column-gap: 50px;
   min-height: 900px;
+}
+
+.nothing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e1f1f;
 }

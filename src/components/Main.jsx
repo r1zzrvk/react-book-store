@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import ItemList from './ItemList';
 import MyLoader from "./UI/MyLoader";
-import { fetchBooks } from '../redux/async-action';
-import { setFetchingAction } from "../redux/actions";
+import { fetchBooks } from '../redux/actions/async-action';
+import { setFetchingAction } from "../redux/actions/actions";
+import Form from './Form';
+import s from '../styles/Form/Form.module.css';
 
 
 const Main = () => {
@@ -20,6 +22,7 @@ const Main = () => {
   }, [dispatch, limit, currentPage])
 
   return <div>
+     <div className={s.form}><Form /></div>
     {loading
       ? <MyLoader />
       : <ItemList />}

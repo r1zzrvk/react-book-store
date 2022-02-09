@@ -1,21 +1,14 @@
 import React from "react";
-import MyModal from "./UI/MyModal";
-import Item from "./Item";
 import MyButton from "./UI/Mybutton";
-import { useState } from "react";
 import s from "../styles/Card/Card.module.css";
 import styles from "../styles/Button/MyButton.module.css";
+import { useHistory } from "react-router-dom";
 
 const BookCard = (props) => {
-  const [visible, setVisible] = useState(false)
+  const history = useHistory();
+
   return (
     <div className={s.card}>
-        <MyModal visible={visible}
-                 setVisible={setVisible}>
-          <Item 
-              setVisible={setVisible}
-              book={props.book}/>
-        </MyModal>
         <img
           src={props.book.volumeInfo.imageLinks.thumbnail}
           alt="" />
@@ -29,7 +22,7 @@ const BookCard = (props) => {
         </div>
         <MyButton
             className={styles.button}
-            onClick={() => setVisible(true)}>More</MyButton>
+            onClick={() => history.push(`/main/${props.book.id}`)}>More</MyButton>
     </div>
   )
 };

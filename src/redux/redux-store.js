@@ -1,9 +1,11 @@
 import { applyMiddleware, combineReducers, compose, createStore} from 'redux';
-import {bookReducer} from './book-reducer';
+import {bookReducer} from './reducers/book-reducer';
 import thunkMiddleware from 'redux-thunk';
+import { sideReducer } from './reducers/side-reducer';
 
 let reducers = combineReducers({
- book: bookReducer
+ book: bookReducer,
+ side: sideReducer
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

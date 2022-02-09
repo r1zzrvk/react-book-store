@@ -2,13 +2,21 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid #1e1f1f;
+  margin: 50px 500px 0px 500px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
 }
 
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  column-gap: 80px;
+  column-gap: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -16,21 +24,89 @@
   font-weight: bold;
 }
 
+.titleHr {
+ width: 80%;
+ opacity: 0.5;
+}
+
 .header {
   text-align: center;
 }
 
 .imageBlock img{
-  min-height: 80px;
-  min-width: 200px;
+  min-height: 100px;
+  min-width: 250px;
+}
+
+.descriptionBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #1e1f1f;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  width: 350px;
+  height: 350px;
+  padding: 10px;
 }
 
 .textItem {
   font-size: 16px;
   padding: 0;
-  margin: 10px;
+  margin: 15px;
+}
+
+.stock{
+ color: green;
+}
+
+.outOfStock {
+ color: red
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 10px 10px;
+  border-radius: 7px;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  background: rgb(195,101,34);
+  background: linear-gradient(0deg, rgba(195,101,34,1) 0%, rgba(252,173,0,1) 100%);
+  color: whitesmoke;
+}
+
+.aboutHr {
+width: 50%;
+opacity: 0.5;
+}
+
+.btn {
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
 }
 
 .aboutItem {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+padding: 30px;
+}
+
+.notAvailable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  margin-top: 60px;
+  color: brown;
 }

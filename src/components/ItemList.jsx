@@ -9,6 +9,8 @@ const ItemList = (props) => {
 
   return (
     <div>
+      {books.length 
+      ? <div>
       <div className={s.paginator}><Paginator /></div>
       <div className={s.list}>
         {
@@ -21,6 +23,8 @@ const ItemList = (props) => {
         }
       </div>
       <div className={s.paginator}><Paginator /></div>
+    </div> 
+      : <h1 className={s.nothing}>Nothing found!</h1>}
     </div>
   )
 }

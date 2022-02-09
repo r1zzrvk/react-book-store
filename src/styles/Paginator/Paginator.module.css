@@ -29,3 +29,7 @@
   border-color: #1e1f1f;  ;
   scale: 1.2;
 }
+
+.page:focus {
+  outline: 2px solid #465a99;
+}

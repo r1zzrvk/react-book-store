@@ -9,7 +9,7 @@
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  border: 5px dotted blue;
+  border: 5px dotted #1e1f1f;
   animation: rotate 8s infinite linear;
 }
 

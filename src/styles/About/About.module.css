@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hr {
+  width: 600px;
+  opacity: 0.6;
+}

@@ -229,6 +229,246 @@
         "amount": 800,
         "currencyCode": "RUB"
       }
+    },
+    {
+      "id": 11,
+      "volumeInfo": {
+        "title": "Эффективный TypeScript: 62 способа улучшить код",
+        "author": "Вандеркам Дэн",
+        "publisher": "\"Издательский дом \"\"Питер\"\"\"",
+        "publishDate": "2020-03-24",
+        "description": "«Эффективный TypeScript» необходим тем, кто уже имеет опыт работы с JavaScript. Цель этой книги — не научить пользоваться инструментами, а помочь повысить профессиональный уровень. TypeScript представляет собой не просто систему типов, а набор служб языка, удобных в использовании. Он повышает безопасность разработки в JavaScript, делает работу увлекательнее и проще. - Изучите все тонкости системы типов - Используйте типы так, чтобы код был более безопасным и понятным - Воспользуйтесь тактическими преимуществами типов - Разберитесь в принципах зависимостей и типов TypeScript - Перенесите код из JavaScript в TypeScript Дэн Вандеркам работает главным инженером в Sidewalk Labs, а также является соучредителем митапа TypeScript NYC. Долгое время был участником открытых проектов. Принимал участие в разработке поисковой системы Google, которой пользуются миллионы людей во всём мире. ”Эффективный TypeScript” рассматривает наиболее распространенные проблемы, с которыми мы сталкиваемся при работе с TypeScript, и дает практические советы. Книга будет полезна независимо от вашего опыта. Райан Кавано, ведущий инженер по TypeScript в Microsoft ”Эффективный TypeScript” содержит практические рецепты и должна лежать на столе у каждого профессионального разработчика. Даже если вы думаете, что знаете TypeScript, купите эту книгу и не пожалеете». Яков Файн, чемпион по Java.",
+        "category": "Programming",
+        "pageCount": 288,
+        "averegeRating": 4.2,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=DCb6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70SRDwH45lxbCnTn4lrhZ4iZxKZKkMyz__y54GLw5rL9QHTeYAoKVVAafNALuHh2F-Gih-7AvTKwp9_Lq0OKWF3W2RY8HOaf4Y8QV9VkIXbwdA_y9aAtG-ydHYBmQdBqZx6seLG&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=DCb6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73wVLRhAKmFhtV-ngHCeYPAvPtoPwavRIWta8LKShkv1upORkRGiKoQ7J3SkEh2fqosVQQsAVOF10eTxE_xdgDc-49GFsNhwj_uWTWRnazJgpcytfRe9GL_0JmeWfTmmDjjpfZh&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 1318,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 12,
+      "volumeInfo": {
+        "title": "НИ СЫ",
+        "author": "Джен Синсеро",
+        "publisher": "Litres",
+        "publishDate": "2021-12-29",
+        "description": "Эта книга – культовый бестселлер – дерзкая и невероятно искренняя, она заставляет проснуться, засунуть свои страхи куда подальше и начать действовать. Джен Синсеро испытала на себе все известные методики личной трансформации, выбрала 25 подходов, которые дали результат, и превратила их в систему полного преображения жизни.Если что-то и может заставить вас по максимуму реализовать свой потенциал, это она – невероятная, яркая, прорывная книга от знаменитого тренера по мотивации и успеху.Из этой книги вы узнаете:[ul]как не обращать внимания на эго и жить в своё удовольствие;как начать любить себя и всё, что делаешь;как изменить свои убеждения, чтобы изменить реальность;почему надежда на лучшее притягивает удачу;почему нужно заботиться о себе больше, чем о других.[/ul]Также выходит под названиями \"Убить Большого Соню. Как заставить замолчать свою \"внутреннюю сволочь\" и направить жизнь по лучшему из сценариев\" и \"Будь дерзким! Как перестать сомневаться в собственном величии и сделать жизнь грандиозной\".В формате a4.pdf сохранен издательский макет.",
+        "category": "Psychology",
+        "pageCount": 	274,
+        "averegeRating": 4.5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=TvJNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE723ytgcDr7I662wqSG_TjyKq613CjbkzQXHQJO3DsXziSAxni9obn6RsRcvaDSBoSmJOzGNDHMeNDu7TAyU5VY6ax8wVEmBbSEXX-KU8IeateR9i5z76aHUBgRdX4NGXONkZ7lN&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=TvJNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72SaSgPmER-YwlZWtEkURgvDKlbrvlyCa1cPCP3F6lDyfvH8snBS5baNlcaTV8KdULNCv8cUacBxCQmu50XysA_cd52UMGMd3inzrFHS0sx1587gTu-dHeimCuUAVlfur3N9Gwe&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 557,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 13,
+      "volumeInfo": {
+        "title": "Sapiens. Краткая история человечества",
+        "author": "Юваль Ной Харари",
+        "publisher": "Litres",
+        "publishDate": "2020-04-21",
+        "description": "Сто тысяч лет назад Homo sapiens был одним из как минимум шести видов человека, живших на этой планете, – ничем не примечательным животным, которое играло в экосистеме роль не большую, чем гориллы, светлячки или медузы. Но около семидесяти тысяч лет назад загадочное изменение когнитивных способностей Homo sapiens превратило его в хозяина планеты и кошмар экосистемы. Как человек разумный сумел покорить мир? Что стало с другими видами человека? Когда и почему появились деньги, государства и религия? Как возникали и рушились империи? Почему почти все общества ставили женщин ниже мужчин? Как наука и капитализм стали господствующими вероучениями современной эры? Становились ли люди с течением времени счастливее? Какое будущее нас ожидает? Юваль Харари показывает, как ход истории формировал человеческое общество и действительность вокруг него. Его книга прослеживает связь между событиями прошлого и проблемами современности и заставляет читателя пересмотреть все устоявшиеся представления об окружающем мире.",
+        "category": "Science",
+        "pageCount": 	622,
+        "averegeRating": 4.8,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=mAWwDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70QQdwhwHiMKgQ_RsR-WLy9teMn7u5JpVY_OQkogLA1LV2epVxw3tZaGT8dekYuIu1hGwN2KiAsfkV0xLPBdwO57kM8Qjfph-lKEKr2gPFZWu73dSBqnsyj_thuRkQ5vyKcV_6v&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=mAWwDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71CK4RKm8lbf9d5t7_2NFQplLPTSczwHJyavbd1NqjXyGT4gTwkD316q_JEeWfJPXaEmMQ6CHsibFgqrUMaEQ3o4H4n25aeruQ5GbyvpjhW15M-gBB7ghl_3jK8Qxci35BJz_cL&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 550,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 14,
+      "volumeInfo": {
+        "title": "Dragon Age. Украденный трон",
+        "author": "Дэвид Гейдер",
+        "publisher": "Азбука-Аттикус",
+        "publishDate": "2018-08-28",
+        "description": "«Dragon Age» — популярная компьютерная игра в жанре темного фэнтези,  завоевавшая множество наград. Долгожданная новеллизация подарит  многочисленным поклонникам незабываемое путешествие по полному  опасностей миру мрачных чудовищ. Наследный принц Мэрик все детство и юность провел в изгнании, скитаясь  вместе с матерью, Мятежной Королевой, и ее скудным войском. Но когда  мать неожиданно погибает от рук мнимых союзников, Мэрику приходится  занять ее место во главе армии повстанцев. Неопытность принца вызывает  недоверие мятежников. Окруженный шпионами и предателями, Мэрик может  рассчитывать только на своего верного друга Логейна и отважную леди  Роуэн, с которой обручен с детства. Подвергая свою жизнь смертельной  опасности, принц должен сделать все возможное и невозможное, чтобы  освободить народ из-под гнета тирана и наконец вернуть себе украденный  трон.",
+        "category": "Fantasy",
+        "pageCount": 	448,
+        "averegeRating": 4.9,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=6uJqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE713uye43wgS5jnvkMj9WfeZz9KKkSG3-EyNN3jcwzOwoFjjt3gvyyG3wH8-Sy31A5Hx3NhkREGava4vvyccEpiJ_FKMqlcOq10aDQ7YubtcF53WiGCGBzqUjVa2CfMRKluOUFzQ&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=6uJqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71wKEWH0NA26Cdh0MAOvOhJjpQLl3FPvEG5LqkDmrvqURirCkCuN6o-deixud0THHbDDXRQjqkBkMYR-hMsS9sVWGL-IwyifvdQfaiatWFn1nKVqhqvK5iaWtA2-iGvg3Ca4Y28&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": true,
+        "amount": 219,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 15,
+      "volumeInfo": {
+        "title": "Процесс",
+        "author": "Франц Кафка",
+        "publisher": "Альпина Паблишер",
+        "publishDate": "1925",
+        "description": "Роман о последнем годе жизни Йозефа К., увязшего в жерновах тупой и безжалостной судебной машины, — нелицеприятный портрет бюрократии, знакомой читателям XXI века не хуже, чем современникам Франца Кафки, и метафора монотонной человеческой жизни без радости, любви и смысла. Банковского управляющего К. судят, но непонятно за что. Герой не в силах добиться справедливости, не отличает манипуляции от душевной теплоты, а добросовестность — от произвола чиновников и до последнего вздоха принимает свое абсурдное состояние как должное. Новый перевод «Процесса», выполненный Леонидом Бершидским, дополнен фрагментами черновиков Франца Кафки, ранее не публиковавшимися в составе романа. Он заново выстраивает хронологию несчастий К. и виртуозно передает интонацию оригинального текста: «негладкий, иногда слишком формальный, чуть застенчивый немецкий гениального пражского еврея».",
+        "category": "Classics",
+        "pageCount": 288,
+        "averegeRating": 5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=GFo9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70BklUaCvOejGYVcAjU2-WW4xhIELTOI_SKcEAUBVk7n4odwXUvpY4ZzbNOHT9QEcfw2-52BifQrnU7SFhxdg2yoVH1ybB1jMLAR22eaLK_w65tBo_wOOddTnVmTIKhrISkbJ6s&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=GFo9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70HuA7P2pi8_WUJ88Hfvzgqgv56RyMkUaJ9-xbiRTcPc6hhp3CPaFB1pKfmBj_adrEc6lbpbLSw0GF3-kQYBSeBhPBgDNHdu6vAz10Md0wEG1T7QZmJ8a0pzsM4HPflrRNVLW7K&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 	334,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 16,
+      "volumeInfo": {
+        "title": "Дубровский",
+        "author": "Александр Сергеевич Пушкин",
+        "publisher": "Google Play Books",
+        "publishDate": "1949",
+        "description": "Однажды друг рассказал Пушкину историю одного небогатого дворянина, который соседом был вытеснен из имения и, оставшись с одними крестьянами, стал грабить на большой дороге. История, рассказанная другом, так заинтересовала Пушкина, что он задумал написать роман, ставший бесценной жемчужиной русской литературы.",
+        "category": "Classics",
+        "pageCount": 204,
+        "averegeRating": 4.5,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hB4vZEa_d0YC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73RtinPsXDPz83PLQ9hNObrXav2tMWyBCe5kVjCo5OotFGLBClTxXA0Dk7xn3co_T6CjA5H9lfYSUGW02bG2qI67zyZKomZs4AxVFxhGQcW8ZGYM5l2H98Aadz49UCQ-LvsnNCI&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hB4vZEa_d0YC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Xn5KY1q1kdnM1OyErQzLA9EOHSiPTRvuy6TPrIVng6OO7vdLdYyVPJI7C2zA5xNiOhF8Cw8nmEyqRG8TCFOalbM-8Yk65NINUNT7xRfhkoTUprZdJcXJvb5jXX11ku2r-e9I5&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 217,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 17,
+      "volumeInfo": {
+        "title": "Кратчайшая история времени",
+        "author": "Стивен Хокинг",
+        "publisher": "Litres",
+        "publishDate": "2021-12-13",
+        "description": "«Кратчайшая история времени» – больше, чем пространный комментарий к сложным понятиям и теориям, описанным в легендарной «Краткой истории». Авторы, Стивен Хокинг и Леонард Млодинов, спустя 17 лет, многое поменявших в астрофизике, новым взглядом смотрят на извечные вопросы: о природе пространства и времени, роли Бога в сотворении мира, о прошлом и будущем Вселенной. Данные, полученные астрономическими обсерваториями, космическими телескопами и физическими лабораториями, стали твердой опорой для теоретической физики, несколько десятилетий подряд сражающейся за стройную, единую теорию поля, должную объединить все известные виды взаимодействий. По убеждению многих, это теория струн, положения и следствия которой развернуто толкуют профессоры Хокинг и Млодинов. Черная материя и черная энергия, о которых мы знаем лишь благодаря гравитационным эффектам, путешествия во времени, на которые, как считаю авторы, «не стоит пока делать ставок» – всё это оказалось в фокусе их внимания.Издание содержит 37 цветных иллюстраций, дополняющих и украшающих текст.В формате PDF A4 сохранен издательский макет.",
+        "category": "Science",
+        "pageCount": 194,
+        "averegeRating": 4.7,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=d0NADwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE73Qp1Nbw7xjL5kLQi3qh2wIIVH-egkaSBjPknw5TcvHCdKUXoeF4sgKX3WWubqaEs0HpfsTbIuudEDyegSAmj8K4l2wkNkhpUCgW9bW-NYnsPbyTGJTuDTE---F-wk5N6qyuHF5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=d0NADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE714L8Dix_3DoPVCkMnlft0ne5_I15j7D9TWjzto_ArkjM_3Bvp1nID6tedJDKixh_OHFL_DYEKrYB2TwCHhY1L-kC2w6TySZ9Zj4qz53C_FZseIqVsdiJY9EnBe87W_mx81WnrE&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 509,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 18,
+      "volumeInfo": {
+        "title": "Легкий способ бросить курить",
+        "author": "Аллен Карр",
+        "publisher": "Добрая книга",
+        "publishDate": "2019",
+        "description": "Книги Аллена Карра изданы на двадцати языках и стали бестселлерами",
+        "category": "Psychology",
+        "pageCount": 207,
+        "averegeRating": 4.2,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=A0xDMgAACAAJ&printsec=frontcover&img=1&zoom=5&imgtk=AFLRE71xKr3sH3iGsG4a5fT-2__0VRIz0X0807mHgqG1RIxXfuvsrDnGAtUY9teF3a0HfRd2L4tm4qJMuUEC8TnKcAZhrYs4bgRSNH8Yuf-H9-H9mos7RMQRF6uYYMe1qTAFkP0_8Nn1&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=A0xDMgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE727spE6qJsan4lKgc64oY4bBrEQWrWKu4uZlX1Pw12hLhiJm8NkrWY7PPmr0fM6aSNY1TvKECAiQZEshrisEnKG3Tze4zIQrLzt2rQXLCzzXo6GWasFqd8xeQUD3mQ0hsbZmyRU&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 450,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 19,
+      "volumeInfo": {
+        "title": "Чехов. Рассказы",
+        "author": "Чехов А.П.",
+        "publisher": "\"Издательство \"\"Проспект\"\"\"",
+        "publishDate": "2015-03-05",
+        "description": "Антон Павлович Чехов - великий русский писатель, главный драматург двадцатого века создал за 26 лет своей литературной деятельности около тысячи произведений, без которых невозможно представить сегодня ни кино, ни сцену, ни книжный магазин в любом городе мира.",
+        "category": "Classics",
+        "pageCount": 488,
+        "averegeRating": 4.6,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=WjPzBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71rD2UE-JooES78-R9pNKfE-8kr14kHYC4Tp7Uz92zuVVxvs2n5S0u0Ulmgdo9bw3dOI8BJsYxrkc5uqoGknogeTXcNjPivlAguzAC4btoaXdvUTBhjcu6MOTnQeMxER8x6PDYd&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=WjPzBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73n33bN4XNTrvJQctNoX5dwGW0lVcQROsKssbew-D6uCH9CWRUyVjqS8Iz4Q_9KFdVaZT4bWgBaYYNsHxl6zJfUBXBWQHavibYsLLRA8A-1BJm0XBiCxsFN9DMXeofPfKqAsbCf&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 118,
+        "currencyCode": "RUB"
+      }
+    },
+    {
+      "id": 20,
+      "volumeInfo": {
+        "title": "Горе от ума",
+        "author": "Грибоедов А. С.",
+        "publisher": "Directmedia",
+        "publishDate": "2014-02-20",
+        "description": "В свое время А. С. Пушкин предсказал, что половина стихов комедии Грибоедова \"Горе от ума\" войдет в пословицы (сейчас модно говорить: \"будет разобрана на цитаты\"). Так и случилось: множество грибоедовских словечек и выражений прочно вошли в повседневную речь и живут по сию пору. Всё врут календари, служить бы рад, прислуживаться тошно, шел в комнату попал в другую, умеренность и аккуратность. Не все даже знают, что это из комедии \"Горе от ума\".",
+        "category": "Classics",
+        "pageCount": 254,
+        "averegeRating": 4.8,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/publisher/content?id=reGPAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE721k2YE6Qf-ja5JGPAy59h5TYNZSdaIrt4Il-vHuWLCDcYXI2dcrgBj1lwPc2-jOOMHDfmjUX-VSXvWqOdkJHCFrT1APHhxI2ko67Jss0aNzBB0vNgEB8XcXdsxTn6sPz0afyRg&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/publisher/content?id=reGPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72GAp7auarB7TcL5XvNsY-sWNXlkQuIjnqm6lgDbZAw0HU7E9Xlbah0WnfHde0TaWdSmTgQ5BCcDcqYm4jEbnqyqK4jER0ydnVexkzVxxgFG9HuYPhHrg_j9RhyirdCnCBelQq-&source=gbs_api"
+        },
+        "language": "RU"
+      },
+      "saleInfo": {
+        "outOfStoke": false,
+        "amount": 378,
+        "currencyCode": "RUB"
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.0.01",
+      "description": "Application created with minimal features"
+    },
+    {
+      "version": "0.0.02",
+      "description": "The following has been added to the application: search, filtering block, unique profiles, routing"
     }
   ]
 }
