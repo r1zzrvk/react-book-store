@@ -1,5 +1,5 @@
 .input {
-  border: 1px solid #1e1f1f;
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: left;
@@ -23,11 +23,11 @@ box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
-  outline: 2px solid #465a99;
+  outline: 2px solid #29bb89;
 }
 
 .range {
-  border: 1px solid #1e1f1f;
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: left;
@@ -42,7 +42,7 @@ box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   color: whitesmoke;
   -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
 -moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(7, 6, 6, 0.69);
 }
 
 .range:focus {
@@ -51,5 +51,5 @@ box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   -moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
   box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
-  outline: 2px solid #465a99;
+  outline: 2px solid #29bb89;
 }

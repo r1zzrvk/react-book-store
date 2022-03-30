@@ -1,3 +1,4 @@
+// book constants
 export const UPDATE_SEARCHFIELD = 'UPDATE_SEARCHFIELD';
 export const SET_BOOKS = 'SET_BOOKS';
 export const SELECT_BY_SORT = 'SELECT_BY_SORT';
@@ -16,3 +17,9 @@ export const RESET_FILTERS = 'RESET_FILTERS';
 
 // side constants
 export const SET_VERSIONS = 'SET_VERSIONS';
+
+//cart constants
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+export const ADJUST_QTY = 'ADJUST_QTY';
+export const REMOVE_ALL = 'REMOVE_ALL';

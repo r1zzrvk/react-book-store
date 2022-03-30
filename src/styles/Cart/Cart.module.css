@@ -1,0 +1,72 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #1e1f1f;
+  margin: 50px 500px 0px 500px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color:#1e6f5c;
+  opacity: 0.8;
+  margin-bottom: 0px;
+}
+
+.cartList {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  margin: 20px;
+  padding: 10px;
+}
+
+.cart hr {
+  width: 600px;
+  opacity: 0.2;
+  margin-top: 30px;
+}
+
+.total {
+  font-size: 30px;
+  padding: 30px;
+  display: flex;
+  color: #1e1f1f;
+  justify-content: flex-end;
+}
+
+.total mark {
+  background-color: whitesmoke;
+  padding: 0px 5px;
+  color: #1e6f5c;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.emptyCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #940909;
+  flex-direction: column;
+}
+
+.emptyCart b {
+  font-weight: 700;
+  margin-bottom: 50px;
+}

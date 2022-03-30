@@ -18,7 +18,7 @@ const SearchBlock = () => {
           onChange={(e) => { dispatch(updateSearchFieldAction(e.target.value)) }}
           value={inputValue} />
         <MyButton
-          className={style.button}
+          className={style.primary}
           type='submit'
           onClick={(e) => {
             e.preventDefault();

@@ -1,5 +1,5 @@
 .select {
-  border: 1px solid #1e1f1f;
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: center;
@@ -19,5 +19,5 @@
 }
 
 .select:focus {
-  outline: 2px solid #465a99;
+  outline: 2px solid #29bb89;
 }

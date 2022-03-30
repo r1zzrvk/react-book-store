@@ -70,7 +70,7 @@ const FilterBlock = () => {
     />
     <ScaleInput />
     <Mybutton
-      className={button.button}
+      className={button.primary}
       onClick={(e) => {
         e.preventDefault()
         dispatch(resetFiltersAction())

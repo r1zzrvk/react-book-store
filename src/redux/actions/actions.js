@@ -14,7 +14,11 @@ import {
   SET_MIN_FILTER,
   SET_MAX_FILTER,
   FILTER_BY_PRICE,
-  RESET_FILTERS
+  RESET_FILTERS,
+  REMOVE_FROM_CART,
+  ADD_TO_CART,
+  ADJUST_QTY,
+  REMOVE_ALL
 } from "../constants";
 
 export const updateSearchFieldAction = (payload) => ({
@@ -97,6 +101,36 @@ export const setVersionsAction = (payload) => ({
   type: SET_VERSIONS,
   payload,
 });
+
+
+// cart actions
+
+export const addToCartAction = (book) => ({
+  type: ADD_TO_CART,
+  payload: {
+    book: book
+  }
+});
+
+export const removeFromCartAction = (payload) => ({
+  type: REMOVE_FROM_CART,
+  payload
+});
+
+export const adjustQuantityAction = (payload) => ({
+  type: ADJUST_QTY,
+  payload
+});
+
+export const removeAllAction = (payload) => ({
+  type: REMOVE_ALL,
+  payload
+})
+
+
+
+
+
 
 
 

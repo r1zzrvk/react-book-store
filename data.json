@@ -18,7 +18,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 4,
         "amount": 1499,
         "currencyCode": "RUB"
       }
@@ -41,7 +41,7 @@
         "language": "ENG"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 18,
         "amount": 2199,
         "currencyCode": "RUB"
       }
@@ -64,7 +64,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 3,
         "amount": 900,
         "currencyCode": "RUB"
       }
@@ -87,7 +87,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": true,
+        "stoke": 0,
         "amount": 190,
         "currencyCode": "RUB"
       }
@@ -110,7 +110,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 4,
         "amount": 750,
         "currencyCode": "RUB"
       }
@@ -133,7 +133,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 1,
         "amount": 1000,
         "currencyCode": "RUB"
       }
@@ -156,7 +156,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 9,
         "amount": 343,
         "currencyCode": "RUB"
       }
@@ -179,7 +179,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 2,
         "amount": 346,
         "currencyCode": "RUB"
       }
@@ -202,7 +202,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 92,
         "amount": 149,
         "currencyCode": "RUB"
       }
@@ -225,7 +225,7 @@
         "language": "ENG"
       },
       "saleInfo": {
-        "outOfStoke": true,
+        "stoke": 0,
         "amount": 800,
         "currencyCode": "RUB"
       }
@@ -248,7 +248,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 11,
         "amount": 1318,
         "currencyCode": "RUB"
       }
@@ -271,7 +271,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 2,
         "amount": 557,
         "currencyCode": "RUB"
       }
@@ -294,7 +294,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 5,
         "amount": 550,
         "currencyCode": "RUB"
       }
@@ -317,7 +317,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": true,
+        "stoke": 0,
         "amount": 219,
         "currencyCode": "RUB"
       }
@@ -340,7 +340,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 7,
         "amount": 	334,
         "currencyCode": "RUB"
       }
@@ -363,7 +363,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 13,
         "amount": 217,
         "currencyCode": "RUB"
       }
@@ -386,7 +386,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 1,
         "amount": 509,
         "currencyCode": "RUB"
       }
@@ -409,7 +409,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 2,
         "amount": 450,
         "currencyCode": "RUB"
       }
@@ -432,7 +432,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 20,
         "amount": 118,
         "currencyCode": "RUB"
       }
@@ -455,7 +455,7 @@
         "language": "RU"
       },
       "saleInfo": {
-        "outOfStoke": false,
+        "stoke": 2,
         "amount": 378,
         "currencyCode": "RUB"
       }
@@ -469,6 +469,10 @@
     {
       "version": "0.0.02",
       "description": "The following has been added to the application: search, filtering block, unique profiles, routing"
+    },
+    {
+      "version": "0.0.03",
+      "description": "The following has been added to the application: redesign, shopping cart, fake ordering"
     }
   ]
 }

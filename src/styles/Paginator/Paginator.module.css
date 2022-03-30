@@ -6,7 +6,7 @@
 
 .page {
   padding: 2px;
-  border: 1px solid #1e1f1f;
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: center;
@@ -26,10 +26,10 @@
 
 .page.currentPage {
   font-weight: bold;
-  border-color: #1e1f1f;  ;
+  border-color: #1e6f5c;  ;
   scale: 1.2;
 }
 
 .page:focus {
-  outline: 2px solid #465a99;
+  outline: 2px solid #29bb89;
 }

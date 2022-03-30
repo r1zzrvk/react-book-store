@@ -1,5 +1,6 @@
-.button {
-  border: 1px solid #1e1f1f;
+/* Normal buttons */
+.primary {
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: center;
@@ -10,7 +11,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.primary:hover {
   background-color: #1e1f1f;
   border: 1px solid whitesmoke;
   color: whitesmoke;
@@ -20,12 +21,12 @@
 box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
 }
 
-.button:focus {
-  outline: 2px solid #465a99;
+.primary:focus {
+  outline: 2px solid #29bb89;
 }
 
 .arrowBtn {
-  border: 1px solid #1e1f1f;
+  border: 1px solid #1e6f5c;
   background-color: whitesmoke;
   border-radius: 7px;
   text-align: center;
@@ -46,5 +47,145 @@ box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
 }
 
 .arrowBtn:focus {
-  outline: 2px solid #465a99;
+  outline: 2px solid #29bb89;
+}
+
+.secondary {
+  border: 1px solid #1e6f5c;
+  background-color: #1e6f5c;
+  color: whitesmoke;
+  border-radius: 7px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  background-color: #1e6f5c;
+  border: 1px solid #1e6f5c;
+  color: whitesmoke;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}
+
+.secondary:focus {
+  outline: 2px solid #29bb89;
+}
+
+.tertiary {
+  border: 1px solid #1e1f1f;
+  background-color: #1e1f1f;
+  color: whitesmoke;
+  border-radius: 7px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tertiary:hover {
+  background-color: whitesmoke;
+  border: 1px solid #1e6f5c;
+  color: #1e1f1f;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}
+
+.tertiary:focus {
+  outline: 2px solid #29bb89;
+}
+
+/* Large buttons */
+.primaryLarge {
+  border: 1px solid #1e6f5c;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.primaryLarge:hover {
+  background-color: #1e1f1f;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}
+
+.primaryLarge:focus {
+  outline: 2px solid #29bb89;
+}
+
+
+.secondaryLarge {
+  border: 1px solid #1e6f5c;
+  background-color:  whitesmoke;
+  color: #1e1f1f;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.secondaryLarge:hover {
+  background-color: #1e6f5c;
+  border: 1px solid #1e6f5c;
+  color: whitesmoke;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}
+
+.secondaryLarge:focus {
+  outline: 2px solid #29bb89;
+}
+
+
+.tertiaryLarge {
+  border: 1px solid #1e1f1f;
+  background-color: #1e1f1f;
+  color: whitesmoke;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tertiaryLarge:hover {
+  background-color: whitesmoke;
+  border: 1px solid #1e6f5c;
+  color: #1e1f1f;
+  scale: 1.1;
+  -webkit-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+-moz-box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+box-shadow: 10px 10px 42px -16px rgba(0, 0, 0, 0.69);
+}
+
+.tertiaryLarge:focus {
+  outline: 2px solid #29bb89;
 }
