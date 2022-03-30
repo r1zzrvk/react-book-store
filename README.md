@@ -12,18 +12,4 @@ Open [http://localhost:3003](http://localhost:3003) to view data in the browser.
 
 You can read more about [json-server](https://github.com/typicode/json-server) in documentation.
 
-## Libraries 
-
-Libraries used in the application:
-
-### `axios`
- 
-For using API with ajax requests.
-
-Open this [link](https://github.com/axios/axios) to go further to axios.
-
-### `classnames`
-
-A simple JavaScript utility for conditionally joining classNames together.
-
-More about [classnames](https://www.npmjs.com/package/classnames).
+![2022-03-30_23-21-02_Trim(1)](https://user-images.githubusercontent.com/82266287/160928924-de8d34ef-c30e-4438-bc32-ae6633f1ca04.gif)
