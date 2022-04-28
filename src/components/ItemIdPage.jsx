@@ -19,6 +19,7 @@ const ItemIdPage = () => {
 
   useEffect(() => {
     dispatch(fetchBook(params.id))
+    window.scrollTo(0,0)
   }, [dispatch, params.id]);
 
   return <div >
