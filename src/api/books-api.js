@@ -18,9 +18,9 @@ export const booksAPI = {
     .then(response => response)
   },
 
-  searchBook: (inputValue) => {
+  searchBook: (inputValue, limit = 10, currentPage = 1) => {
     return axios
-    .get(`http://localhost:3003/items?q=${inputValue}`)
+    .get(`http://localhost:3003/items?q=${inputValue}&_limit=${limit}&_page=${currentPage}`)
     .then(response => response)
   },
 
@@ -30,9 +30,9 @@ export const booksAPI = {
     .then(response => response)
   },
 
-  filterPrice: (min, max) => {
+  filterPrice: (min, max, limit = 10, currentPage = 1) => {
     return axios
-    .get(`http://localhost:3003/items?saleInfo.amount_gte=${min}&saleInfo.amount_lte=${max}`)
+    .get(`http://localhost:3003/items?saleInfo.amount_gte=${min}&saleInfo.amount_lte=${max}&_limit=${limit}&_page=${currentPage}`)
     .then(response => response)
   },
 

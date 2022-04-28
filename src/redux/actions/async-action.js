@@ -22,8 +22,8 @@ export const fetchBook = (id) => async (dispatch) => {
   dispatch(setBookProfileAction(response.data));
 };
 
-export const fetchSearch = (inputValue) => async (dispatch) => {
-  let response = await booksAPI.searchBook(inputValue);
+export const fetchSearch = (inputValue, limit, currentPage) => async (dispatch) => {
+  let response = await booksAPI.searchBook(inputValue, limit, currentPage);
   dispatch(searchByNameAction(response.data));
 }
 

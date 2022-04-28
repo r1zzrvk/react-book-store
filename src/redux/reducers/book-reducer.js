@@ -117,8 +117,8 @@ export const bookReducer = (state = initialState, action) => {
       return {
         ...state,
         category: '',
-        min: '',
-        max: '',
+        min: '1',
+        max: '2199',
         selectedSort: '',
       }
     default:

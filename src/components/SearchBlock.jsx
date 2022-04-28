@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import style from '../styles/Button/MyButton.module.css';
 
 const SearchBlock = () => {
-  const inputValue = useSelector(state => state.book.inputValue);
+  const {inputValue, limit, currentPage} = useSelector(state => state.book);
   const dispatch = useDispatch();
   return <div>
      <MyInput
@@ -22,7 +22,7 @@ const SearchBlock = () => {
           type='submit'
           onClick={(e) => {
             e.preventDefault();
-            dispatch(fetchSearch(inputValue))
+            dispatch(fetchSearch(inputValue, limit, currentPage))
           }}>Search</MyButton>
   </div>;
 };
