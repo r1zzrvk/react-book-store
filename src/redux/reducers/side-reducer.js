@@ -1,7 +1,7 @@
 import { SET_VERSIONS } from "../constants";
 
 const initialState = {
-  versions:[]
+  versions: [],
 };
 
 export const sideReducer = (state = initialState, { type, payload }) => {
@@ -9,7 +9,8 @@ export const sideReducer = (state = initialState, { type, payload }) => {
     case SET_VERSIONS:
       return {
         ...state,
-        versions: payload };
+        versions: payload,
+      };
 
     default:
       return state;

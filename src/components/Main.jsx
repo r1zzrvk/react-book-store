@@ -1,32 +1,30 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import ItemList from './ItemList';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import ItemList from "./ItemList";
 import MyLoader from "./UI/MyLoader";
-import { fetchBooks } from '../redux/actions/async-action';
-import { setFetchingAction } from "../redux/actions/actions";
-import Form from './Form';
-import s from '../styles/Form/Form.module.css';
-
+import { fetchBooks } from "../redux/actions/async-action";
+import Form from "./Form";
+import s from "../styles/Form/Form.module.css";
 
 const Main = () => {
-
-  const loading = useSelector(state => state.book.isFetching);
-  const limit = useSelector(state => state.book.limit);
-  const currentPage = useSelector(state => state.book.currentPage);
+  const { isFetching, limit, currentPage } = useSelector((state) => state.book);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(setFetchingAction(true));
     dispatch(fetchBooks(limit, currentPage));
-    dispatch(setFetchingAction(false));
-  }, [dispatch, limit, currentPage])
+  }, [dispatch, limit, currentPage]);
 
-  return <div>
-     <div className={s.form}><Form /></div>
-    {loading
-      ? <MyLoader />
-      : <ItemList />}
-  </div>;
+  if (isFetching) {
+    return <MyLoader />;
+  }
+  return (
+    <div>
+      <div className={s.form}>
+        <Form />
+      </div>
+      <ItemList />
+    </div>
+  );
 };
 
 export default Main;
