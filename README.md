@@ -2,16 +2,25 @@
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the server! If you want start app in development build, run `npm run dev` in your CLI
 
-### `json-server --watch data.json --port 3003`
+### `development mode`
 
-Runs the script on the fake server with local JSON.\
-Open [http://localhost:3003](http://localhost:3003) to view data in the browser.\
-You don't need to run this script, it will automatically run on npm start
+Run `npm run dev` in your CLI, server will start automaticly.\
+Use `https://r1-bookstore.herokuapp.com/api/` with ajax requests.
 
-You can read more about [json-server](https://github.com/typicode/json-server) in documentation.
+### `deploy`
+
+Application deployed on heroku.\
+Open [https://r1-bookstore.herokuapp.com](https://r1-bookstore.herokuapp.com) to view it in the browser.
+
+You can read more about [Heroku](https://devcenter.heroku.com/articles/heroku-cli).
+
+### `json-server`
+
+It works with the json server API and use a local mock database in json file.
+
+You can read more about [json-server](https://github.com/typicode/json-server#access-from-anywhere).
 
 ### `early version of the app`
 
