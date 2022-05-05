@@ -1,0 +1,1 @@
+export const jsonAPI = 'http://localhost:3000/';

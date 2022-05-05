@@ -15,13 +15,13 @@ You can read more about [json-server](https://github.com/typicode/json-server) i
 
 ### `early version of the app`
 
-Implemented in the application:\
+Implemented in the application:
 
 Data rendering\
 Sorting and filtering\
 shopping cart\
 Routing\
 Search\
-Pagination\
+Pagination
 
 ![2022-03-30_23-21-02_Trim(1)](https://user-images.githubusercontent.com/82266287/160928924-de8d34ef-c30e-4438-bc32-ae6633f1ca04.gif)
