@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeFromCartAction } from "../redux/actions/actions";
+import { removeFromCartAction } from "../../redux/actions/actions";
 import { useHistory } from "react-router-dom";
-import s from "../styles/Cart/CartItem.module.css";
-import button from "../styles/Button/MyButton.module.css";
+import s from "../../styles/Cart/CartItem.module.css";
+import button from "../../styles/Button/MyButton.module.css";
 
 const CartItem = (props) => {
   const dispatch = useDispatch();

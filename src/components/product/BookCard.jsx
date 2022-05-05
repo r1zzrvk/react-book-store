@@ -1,13 +1,13 @@
 import React from "react";
-import MyButton from "./UI/Mybutton";
-import s from "../styles/Card/Card.module.css";
-import styles from "../styles/Button/MyButton.module.css";
+import MyButton from "../UI/Mybutton";
+import s from "../../styles/Card/Card.module.css";
+import styles from "../../styles/Button/MyButton.module.css";
 import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {
   addToCartAction,
   removeFromCartAction,
-} from "../redux/actions/actions";
+} from "../../redux/actions/actions";
 import { useSelector } from "react-redux";
 
 const BookCard = ({ book }) => {

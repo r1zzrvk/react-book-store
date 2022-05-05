@@ -1,7 +1,7 @@
 import React from "react";
-import s from "../styles/Item/Item.module.css";
-import MyButton from "./UI/Mybutton";
-import style from "../styles/Button/MyButton.module.css";
+import s from "../../styles/Item/Item.module.css";
+import MyButton from "../UI/Mybutton";
+import style from "../../styles/Button/MyButton.module.css";
 import { useParams } from "react-router-dom";
 
 const NotAvailablePage = ({ goBack }) => {

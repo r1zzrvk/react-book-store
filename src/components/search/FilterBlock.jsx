@@ -1,16 +1,16 @@
 import React , { useEffect }from "react";
-import MySelect from "./UI/MySelect";
+import MySelect from "../UI/MySelect";
 import {
   resetFiltersAction,
   selectSortingAction,
-} from "../redux/actions/actions";
-import s from "../styles/Filters/Filter.module.css";
+} from "../../redux/actions/actions";
+import s from "../../styles/Filters/Filter.module.css";
 import { useDispatch, useSelector} from "react-redux";
 import ScaleInput from "./ScaleInput";
-import Mybutton from "./UI/Mybutton";
-import button from "../styles/Button/MyButton.module.css";
-import { fetchFiltredByCategory } from "../redux/actions/async-action";
-import { setSortingAction } from "../redux/actions/actions";
+import Mybutton from "../UI/Mybutton";
+import button from "../../styles/Button/MyButton.module.css";
+import { fetchFiltredByCategory } from "../../redux/actions/async-action";
+import { setSortingAction } from "../../redux/actions/actions";
 
 const FilterBlock = () => {
   const dispatch = useDispatch();

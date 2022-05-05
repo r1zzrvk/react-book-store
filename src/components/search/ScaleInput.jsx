@@ -1,14 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import MyInput from "./UI/MyInput";
-import input from "../styles/Input/Input.module.css";
+import MyInput from "../UI/MyInput";
+import input from "../../styles/Input/Input.module.css";
 import {
   setMaxFilterAction,
   setMinFilterAction,
-} from "../redux/actions/actions";
+} from "../../redux/actions/actions";
 import { useEffect } from "react";
-import { fetchFiltredByPrice } from "../redux/actions/async-action";
-import s from "../styles/Range/Range.module.css";
+import { fetchFiltredByPrice } from "../../redux/actions/async-action";
+import s from "../../styles/Range/Range.module.css";
 
 const ScaleInput = () => {
   const { min, max, limit, currentPage } = useSelector((state) => state.book);

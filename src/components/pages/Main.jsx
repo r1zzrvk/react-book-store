@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ItemList from "./ItemList";
-import MyLoader from "./UI/MyLoader";
-import { fetchBooks } from "../redux/actions/async-action";
-import Form from "./Form";
-import s from "../styles/Form/Form.module.css";
+import ItemList from "../product/ItemList";
+import MyLoader from "../UI/MyLoader";
+import { fetchBooks } from "../../redux/actions/async-action";
+import Form from "../search/Form";
+import s from "../../styles/Form/Form.module.css";
 
 const Main = () => {
   const { isFetching, limit, currentPage } = useSelector((state) => state.book);
@@ -18,7 +18,7 @@ const Main = () => {
     return <MyLoader />;
   }
   return (
-    <div>
+    <div> 
       <div className={s.form}>
         <Form />
       </div>

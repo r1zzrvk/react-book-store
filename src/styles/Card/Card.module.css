@@ -12,6 +12,13 @@
   box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
 }
 
+.card:hover {
+  scale: 1.05;
+  -webkit-box-shadow: 10px 10px 35px -11px rgba(80, 80, 80, 0.563);
+  -moz-box-shadow: 10px 10px 35px -11px rgba(80, 80, 80, 0.563);
+  box-shadow: 10px 10px 35px -11px rgba(80, 80, 80, 0.563);
+}
+
 .card img {
   max-width: 150px;
   margin-top: 5px;

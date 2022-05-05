@@ -1,13 +1,11 @@
 .app {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   background-color:whitesmoke;
 }
 
 .nav-bar {
-  padding: 5px;
-  text-align: center;
+  width: 100%;
   background-color:  #1e1f1f ;
   color: whitesmoke
 }

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { getPagesArray } from "../utils/pages";
-import MyButton from "../components/UI/Mybutton";
-import { setCurrentPageAction } from "../redux/actions/actions";
+import { getPagesArray } from "../../utils/pages";
+import MyButton from "./Mybutton";
+import { setCurrentPageAction } from "../../redux/actions/actions";
 import { useDispatch, useSelector } from "react-redux";
-import s from "../styles/Paginator/Paginator.module.css";
+import s from "../../styles/Paginator/Paginator.module.css";
 import cn from "classnames";
 
 const Paginator = (props) => {

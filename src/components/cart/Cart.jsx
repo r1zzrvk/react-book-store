@@ -1,12 +1,12 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import CartItem from "./CartItem";
-import s from "../styles/Cart/Cart.module.css";
-import button from "../styles/Button/MyButton.module.css";
-import MyButton from "./UI/Mybutton";
+import s from "../../styles/Cart/Cart.module.css";
+import button from "../../styles/Button/MyButton.module.css";
+import MyButton from "../UI/Mybutton";
 import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { removeAllAction } from "../redux/actions/actions";
+import { removeAllAction } from "../../redux/actions/actions";
 
 const Cart = () => {
   const { cart } = useSelector((state) => state.cart);

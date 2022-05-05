@@ -2,11 +2,11 @@ import React from "react";
 import {
   addToCartAction,
   removeFromCartAction,
-} from "../redux/actions/actions";
+} from "../../redux/actions/actions";
 import { useSelector, useDispatch } from "react-redux";
-import MyButton from "./UI/Mybutton";
-import style from "../styles/Button/MyButton.module.css";
-import s from "../styles/Item/Item.module.css";
+import MyButton from "../UI/Mybutton";
+import style from "../../styles/Button/MyButton.module.css";
+import s from "../../styles/Item/Item.module.css";
 import { useHistory } from "react-router-dom";
 
 const ItemPageContent = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import MyButton from "./UI/Mybutton";
-import style from "../styles/Button/MyButton.module.css";
-import s from "../styles/Form/Form.module.css";
+import MyButton from "../UI/Mybutton";
+import style from "../../styles/Button/MyButton.module.css";
+import s from "../../styles/Form/Form.module.css";
 import FilterBlock from "./FilterBlock";
 import SearchBlock from "./SearchBlock";
 

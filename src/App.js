@@ -1,20 +1,26 @@
 import "./styles/App.css";
-import MyNavBar from "./components/UI/MyNavBar";
-import Main from "./components/Main";
+import Main from "./components/pages/Main";
 import { Redirect, Route, Switch } from "react-router-dom";
-import ErrorPage from "./components/ErrorPage";
-import About from "./components/About";
-import ItemIdPage from "./components/ItemIdPage";
+import ErrorPage from "./components/pages/ErrorPage";
+import About from "./components/pages/About";
+import ItemIdPage from "./components/pages/ItemIdPage";
 import MyFooter from "./components/UI/MyFooter";
-import Cart from "./components/Cart";
+import Cart from "./components/cart/Cart";
+import WelcomePage from "./components/pages/WelcomePage";
+import MyNavBar from "./components/UI/MyNavBar";
 
 const App = () => {
   return (
     <div className="app">
-      <div className="nav-bar">
+       <div className="nav-bar">
         <MyNavBar />
       </div>
       <Switch>
+        <Route exact path="/welcome">
+          <div className="main">
+            <WelcomePage />
+          </div>
+        </Route>
         <Route exact path="/main">
           <div className="main">
             <Main />
@@ -41,7 +47,7 @@ const App = () => {
             <ErrorPage />
           </div>
         </Route>
-        <Redirect exact from="/" to="/main" />
+        <Redirect exact from="/" to="/welcome" />
         <Redirect to="error" />
       </Switch>
       <div className="footer">

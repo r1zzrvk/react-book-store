@@ -1,37 +1,35 @@
-import React from 'react';
-import s from '../../styles/Nav/Nav.module.css';
-import { Link } from 'react-router-dom';
-import shoppingCart from '../../img/cart.svg';
-import book from '../../img/book.svg';
-import { useSelector } from 'react-redux';
+import React, { useState } from "react";
+import s from "../../styles/Nav/Nav.module.css";
+import book from "../../img/book.svg";
+import MyBurgerBtn from "./MyBurgerBtn";
+import MyOffcanvas from "./MyOffcanvas";
 
 const MyNavBar = (props) => {
-  const cart = useSelector(state => state.cart.cart);
+  const [visible, setVisible] = useState(false);
+
+  const onClick = () => {
+    setVisible(true);
+  };
 
   return (
-    <nav className={s.nav}>
-      <Link to='/main'>
-        <img
-          src={book}
-          alt='?'
-          className={s.icon} />
-      </Link>
-      <div className={s.header}>
-        <h1>Book Store</h1>
-        <Link to='/main'>Main </Link>
-        <Link to='about'> About</Link>
+    <div className={s.header}>
+      <MyOffcanvas visible={visible} setVisible={setVisible} />
+      <div className={s.burger} onClick={onClick}>
+        <MyBurgerBtn />
       </div>
-      <Link to='/cart'>
-        <div className={s.cart}>
-        <b className={s.cartItems}>{!cart.length ? '' : cart.length}</b>
-      <img 
-      src={shoppingCart} 
-      alt='?' 
-      className={s.icon} />
-        </div>
-      </Link>
-    </nav>
-  )
-}
+      <div className={s.logo}>
+        <img src={book} alt="?" className={s.icon} />
+        <h1>Book Store</h1>
+      </div>
+    </div>
+  );
+};
 
 export default MyNavBar;
+
+//  <Link to="/cart">
+//       <div className={s.cart}>
+//         <b className={s.cartItems}>{!cart.length ? "" : cart.length}</b>
+//         <img src={shoppingCart} alt="?" className={s.icon} />
+//       </div>
+//     </Link>

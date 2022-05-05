@@ -1,11 +1,11 @@
 import React from "react";
-import input from "../styles/Input/Input.module.css";
-import { fetchSearch } from "../redux/actions/async-action";
-import MyInput from "./UI/MyInput";
-import MyButton from "./UI/Mybutton";
-import { updateSearchFieldAction } from "../redux/actions/actions";
+import input from "../../styles/Input/Input.module.css";
+import { fetchSearch } from "../../redux/actions/async-action";
+import MyInput from "../UI/MyInput";
+import MyButton from "../UI/Mybutton";
+import { updateSearchFieldAction } from "../../redux/actions/actions";
 import { useDispatch, useSelector } from "react-redux";
-import style from "../styles/Button/MyButton.module.css";
+import style from "../../styles/Button/MyButton.module.css";
 
 const SearchBlock = () => {
   const { inputValue, limit, currentPage } = useSelector((state) => state.book);

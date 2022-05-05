@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { fetchBook } from "../redux/actions/async-action";
+import { fetchBook } from "../../redux/actions/async-action";
 import { useHistory } from "react-router-dom";
-import ItemPageContent from "./ItemPageContent";
-import NotAvailablePage from "./NotAvailablePage";
-import MyLoader from "./UI/MyLoader";
+import ItemPageContent from "../product/ItemPageContent";
+import NotAvailablePage from "../pages/NotAvailablePage";
+import MyLoader from "../UI/MyLoader";
 
 const ItemIdPage = () => {
   const params = useParams();
