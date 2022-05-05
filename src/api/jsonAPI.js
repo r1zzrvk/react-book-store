@@ -1,1 +1,1 @@
-export const jsonAPI = 'http://localhost:3000/';
+export const jsonAPI = 'https://r1-bookstore.herokuapp.com/api/';
