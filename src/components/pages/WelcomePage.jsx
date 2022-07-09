@@ -1,6 +1,6 @@
 import React from "react";
 import Greetings from "../welcome/Greetings/Greetings";
-import Motivation from "../welcome/Motivation/Motivation";
+import { Motivation } from "../welcome/Motivation/Motivation";
 import s from "../../styles/Welcome/Welcome.module.css";
 
 const WelcomePage = () => {

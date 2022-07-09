@@ -1,7 +1,26 @@
 .container {
+  position: relative;
   display: flex;
   padding: 25px;
   background-color: #e4e4e4;
   height: 800px;
 }
 
+.content {
+  position: absolute;
+  align-self: flex-end;
+  height: 650px;
+  width: 400px;
+  left: 70%;
+  top: 20%;
+  border-radius: 31px;
+  background: linear-gradient(145deg, #cdcdcd, #f4f4f4);
+  box-shadow: 10px 10px 29px #5b5b5b,
+    -10px -10px 29px #ffffff;
+  opacity: 0;
+  transition: all .5s ease-in;
+}
+
+.active {
+  opacity: 1;
+}

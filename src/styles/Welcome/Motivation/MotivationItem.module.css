@@ -17,17 +17,11 @@
   padding: 25px;
   margin-left: 50px;
   cursor: pointer;
-  animation: slide-top .5s cubic-bezier(.25, .46, .45, .94) both
+  transition: all .5s cubic-bezier(.25, .46, .45, .94);
 }
 
-@keyframes slide-top {
-  0% {
-    transform: translateY(0)
-  }
-
-  100% {
-    transform: translateY(-100px)
-  }
+.content:hover {
+  transform: translateY(-50px)
 }
 
 .logo {
