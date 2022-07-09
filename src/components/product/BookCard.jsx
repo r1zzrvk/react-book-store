@@ -9,6 +9,7 @@ import {
   removeFromCartAction,
 } from "../../redux/actions/actions";
 import { useSelector } from "react-redux";
+import { heart, shoppingCart } from "../../utils/icons";
 
 const BookCard = ({ book }) => {
   const history = useHistory();
@@ -40,24 +41,22 @@ const BookCard = ({ book }) => {
   return (
     <div className={s.card}>
       <img src={book.volumeInfo.imageLinks.thumbnail} alt="book" />
-      <div>
+      <div className={s.content}>
+      <div className={s.iconButtons}>
+          <div className={s.favorite}>{heart}</div>
+          <div className={s.shoppingCart}>{shoppingCart}</div>
+        </div>
         <h1>{book.volumeInfo.title}</h1>
-        <hr className={s.item1} />
         <p>
-          <b>{book.volumeInfo.author}</b>
+          <b>{book.saleInfo.amount} ₽</b>
         </p>
-        <p>
-          <b>{book.saleInfo.amount}</b> {book.saleInfo.currencyCode}
-        </p>
-        <p>
-          <b>{book.volumeInfo.publishDate.substring(0, 4)}</b>
-        </p>
-        <hr className={s.item2} />
       </div>
-      {isInCart}
-      <MyButton className={styles.primary} onClick={goToProfile}>
-        More
-      </MyButton>
+      <div className={s.buttons}>
+        {/* {isInCart} */}
+        <MyButton className={styles.primary} onClick={goToProfile}>
+          More
+        </MyButton>
+      </div>
     </div>
   );
 };

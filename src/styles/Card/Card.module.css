@@ -1,15 +1,17 @@
 .card {
+  position: relative;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   width: 280px;
-  height: 500px;
+  height: 470px;
   margin: 10px;
   border-radius: 15px;
   -webkit-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
   -moz-box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
   box-shadow: 10px 10px 35px -11px rgba(0, 0, 0, 0.82);
+  transition: all 0.5s ease;
 }
 
 .card:hover {
@@ -20,15 +22,15 @@
 }
 
 .card img {
-  max-width: 150px;
-  margin-top: 5px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px 10px 10px 10px;
 }
 
-.card h1{
-  padding: 0;
-  margin: 3px;
+.card h1 {
   font-size: 20px;
-  color:#1e6f5c;
+  color: #1e6f5c;
   font-weight: 600;
   text-align: center;
 }
@@ -40,17 +42,46 @@
 }
 
 .card b {
-  color:#1e6f5c;
+  color: #1e6f5c;
 }
 
-.card hr {
-  opacity: 0.2;
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-left: 20px;
 }
 
-.item1 {
-  width: 150px;
+.iconButtons {}
+
+.favorite {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  color: #1e6f5c;
+  border: 1px solid #1e6f5c;
+  padding: 5px;
+  border-radius: 30%;
 }
 
-.item2 {
-  width: 50px;
+.shoppingCart {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  color: #1e6f5c;
+  border: 1px solid #1e6f5c;
+  padding: 5px;
+  border-radius: 30%;
+}
+
+.favorite:hover {
+  transition: all 0.5s ease;
+  scale: 1.1;
+  color: red;
+}
+
+.shoppingCart:hover {
+  transition: all 0.5s ease;
+  scale: 1.1;
+  color: rgb(251, 202, 4);
 }

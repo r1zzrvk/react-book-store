@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
+  background-color: #1e1f1f;
+  height: 800px;
+}

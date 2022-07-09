@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 31px;
+  background: linear-gradient(145deg, #cdcdcd, #f4f4f4);
+  box-shadow: 10px 10px 29px #5b5b5b,
+    -10px -10px 29px #ffffff;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+  animation: slide-top .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(0)
+  }
+
+  100% {
+    transform: translateY(-100px)
+  }
+}
+
+.logo {
+  width: 100px;
+}

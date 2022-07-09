@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.gradient {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  background: #1e1f1f;
+  background: linear-gradient(180deg,#1e1f1f 20%, #e4e4e4 100%);
+}

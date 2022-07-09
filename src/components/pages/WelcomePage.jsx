@@ -1,8 +1,14 @@
 import React from "react";
+import Greetings from "../welcome/Greetings/Greetings";
+import Motivation from "../welcome/Motivation/Motivation";
+import s from "../../styles/Welcome/Welcome.module.css";
 
 const WelcomePage = () => {
   return (
-    <div style={{background: '#1e1f1f', width:'100%', height:'100%'}}>
+    <div className={s.container}>
+      <Greetings/>
+    <div className={s.gradient}></div>
+      <Motivation/>
     </div>
   );
 };

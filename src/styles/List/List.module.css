@@ -1,14 +1,14 @@
 .list {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 50px;
-  min-height: 900px;
+  column-gap: 20px;
+  padding: 20px;
 }
 
 .nothing {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
