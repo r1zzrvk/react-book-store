@@ -24,3 +24,19 @@
 .active {
   opacity: 1;
 }
+
+.content_container {
+  padding: 25px;
+}
+
+.content_container h1 {
+  text-align: right;
+  color: #1e6f5c;
+}
+
+.content_container p {
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: justify;
+}
+

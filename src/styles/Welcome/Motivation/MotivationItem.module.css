@@ -21,9 +21,9 @@
 }
 
 .content:hover {
-  transform: translateY(-50px)
+  transform: translateY(-70px)
 }
-
+ 
 .logo {
   width: 100px;
 }

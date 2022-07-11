@@ -32,19 +32,11 @@
 }
 
 .welcome__navbar {
-  position: fixed;
   width: 100%;
-  background-color: #1e1f1f;
-}
-
-.welcome__navbar h1 {
+  background-color:  #1e1f1f ;
   color: whitesmoke;
 }
 
 .main__navbar {
-  background-color: #1e1f1f;
-}
-
-.main__navbar h1 {
-  color: whitesmoke;
+  border-radius: 0px 0px 30px 30px;
 }
