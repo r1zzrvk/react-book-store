@@ -40,3 +40,13 @@
   text-align: justify;
 }
 
+.content_container strong {
+  box-shadow: inset 300px 0 0 0 #1e6f5c;
+  color: #e4e4e4;
+}
+
+.content_container i{
+  color: #1e6f5c;
+  opacity: 0.8;
+}
+
